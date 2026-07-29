@@ -1,7 +1,24 @@
 aid: jala
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jala.png
 name: Jala
-description: Jala is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: JALA is an Indonesian aquaculture technology company providing end-to-end solutions for the
+  shrimp farming industry, describing itself as a fully connected system powered by data farmers can trust.
+  It connects farmers, processors, and buyers through the JALA App for real-time pond monitoring and data
+  analytics, the Baruni technology platform, farming supplies (post-larvae, feed, technical assistance),
+  harvest and cold-chain logistics services, and traceable certified supply chains for processors and buyers.
+  Backed by 500 Global, JALA operates a consumer/operator SaaS platform (app.jala.tech) rather than a public
+  developer API program. This profile was surfaced as a portfolio-company lead and enriched by the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/jala/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aquaculture
+- Agriculture
+- Shrimp Farming
+- Supply Chain
+- Traceability
+- Indonesia
+- Data Analytics
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://jala.tech
+- type: Portal
+  url: https://app.jala.tech
+- type: Login
+  url: https://app.jala.tech/jala_web_view
+- type: Blog
+  url: https://jala.tech/blog
+- type: Support
+  url: https://jala.tech/contact-us
+- type: TermsOfService
+  url: https://jala.tech/terms-conditions
+- type: PrivacyPolicy
+  url: https://jala.tech/privacy-policy
+- type: DomainSecurity
+  url: security/jala-domain-security.yml
+- type: LLMsTxt
+  url: llms/jala-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

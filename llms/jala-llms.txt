@@ -1,0 +1,26 @@
+# JALA
+
+> JALA is an Indonesian aquaculture technology company providing end-to-end solutions for the shrimp farming industry — connecting farmers, processors, and buyers through the JALA App for real-time pond monitoring and data analytics, the Baruni platform, farming supplies, harvest services, and traceable certified supply chains. Backed by 500 Global. This is an API Evangelist network profile; JALA runs an operator SaaS platform and does not publish a public developer API.
+
+## About
+- [Website](https://jala.tech): Company homepage.
+- [About JALA](https://jala.tech/about): Company overview.
+- [Blog](https://jala.tech/blog): Cultivation tips, shrimp industry news, disease guidance, product updates.
+- [Careers](https://jala.tech/careers): Open roles.
+- [Contact / Support](https://jala.tech/contact-us): Sales and support contact (contact@jala.tech).
+
+## Products
+- [JALA App](https://app.jala.tech/jala_web_view): Real-time pond monitoring and data analytics for shrimp farmers.
+- [Baruni](https://jala.tech/baruni): JALA technology platform.
+
+## Legal
+- [Terms and Conditions](https://jala.tech/terms-conditions)
+- [Privacy Policy](https://jala.tech/privacy-policy)
+- [FAQ](https://jala.tech/faq)
+
+## Network artifacts
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/jala/refs/heads/main/apis.yml): API Evangelist network profile.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/jala/refs/heads/main/security/jala-domain-security.yml): TLS/HSTS/SPF/DMARC posture for jala.tech.
+
+## Notes
+- No public API, OpenAPI/Swagger specification, developer portal, /llms.txt, or /.well-known/security.txt was found as of 2026-07-19. api.jala.tech serves an operator login, not a documented API.
